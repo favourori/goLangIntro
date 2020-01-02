@@ -28,4 +28,8 @@ func main() {
 
 	//functions
 	fmt.Println(greet("David"))
+
+	//Arrays
+	fruits := [2]string{"Orange", "Mango"}
+	fmt.Println(fruits)
 }
