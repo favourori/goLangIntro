@@ -32,4 +32,12 @@ func main() {
 	//Arrays
 	fruits := [2]string{"Orange", "Mango"}
 	fmt.Println(fruits)
+
+
+	//conditionals
+	var x = 5
+	var y = 10
+	if x < y {
+		fmt.Printf("%d is less than %d\n", x,y)
+	}
 }
