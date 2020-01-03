@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/favourori/go_intro/mathUtils"
 	"github.com/favourori/go_intro/stringUtils"
 )
 
@@ -42,8 +43,20 @@ func main() {
 		fmt.Printf("%d is less than %d\n", y, x)
 	}
 
-
 	//loops
-	
+	//long method
+	// i := 1
+	// for i <= 10 {
+	// 	fmt.Println(i)
+	// 	i++
+	// }
+
+	//short method
+	for j := 1; j <= 10; j++ {
+		fmt.Println(j)
+
+	}
+
+	fmt.Println(mathUtils.Sum(4, 3))
 
 }
